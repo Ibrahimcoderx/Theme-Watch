@@ -187,62 +187,126 @@
    text-align: right;
 }
 
+.BannerImgBox img {
+    animation: moverjhgiu 1s linear infinite  alternate;
+}
+
+@keyframes moverjhgiu  {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(15px); }
+}
+
+
 
 /* ==============================================================================================
-            Banner
+            Description
 =================================================================================================*/
 
+.DescriptionBox{
+    text-align: center;
+    padding: 0px 10%;
+}
+
+/* ==============================================================================================
+            Slider
+=================================================================================================*/
+.mySwiper {
+    max-width:500px;
+    max-height: 300px;
+}
+.mySwiper img{
+    width:100%;
+    max-height: 300px;
+}
 
 
 /* ==============================================================================================
-            Banner
+            Order 2
 =================================================================================================*/
 
+.Order2 {
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    background-image: url('../public/images/img9.jpg');
+    height: 400px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .Order2 {
+    position: relative;
+  }
+  
+  .Order2::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgb(143, 130, 130);
+      opacity: .6;
+      z-index: 1 ;
+  }
+
+
+.Order2Abs{
+      position: absolute;
+      text-align: center;
+      z-index: 3;
+  }
+
+.Order2Abs h4{
+      font-size: 51px;
+      line-height: 69px;
+      color:#FFFFFF;
+      font-weight: 900;
+  }
+
+.Order2Abs h5{
+      font-size: 32px;
+      line-height: 42px;
+      color:#FFFFFF;
+      margin: 30px 0px;
+
+  }
 
 
 /* ==============================================================================================
-            Banner
+            List Box
 =================================================================================================*/
 
+.ListBoxRow{
+    display: flex;
+    align-items: center;
+}
+
+
+.ListBox li{
+    font-size: 25px;
+    line-height: 60px;
+    color: #420000;
+    font-weight: 700;
+    list-style-type: disc;
+}
+
+.ListBox img{
+       width: 100%; 
+       max-height: 400px;
+       object-fit: contain;
+       margin-top: 20px;
+}
 
 
 
 /* ==============================================================================================
-            Banner
-=================================================================================================*/
-
-
-
-
-/* ==============================================================================================
-            Banner
-=================================================================================================*/
-
-
-
-
-/* ==============================================================================================
-            Banner
-=================================================================================================*/
-
-
-
-
-/* ==============================================================================================
-            Banner
-=================================================================================================*/
-
-
-
-/* ==============================================================================================
-            Banner
-=================================================================================================*/
-
-
-
-
-/* ==============================================================================================
-            Banner
+            Midea
 =================================================================================================*/
 
 
@@ -253,8 +317,8 @@
         padding: 160px 0px 100px 0px;
     }
     
-
 }
+
 
 @media (max-width: 1440px) {
 
@@ -291,6 +355,8 @@
 
 
 }
+
+
 
 @media (max-width: 1280px) {
 
@@ -380,6 +446,39 @@
     line-height: 38px;
 }
 
+
+/* order 2 */
+
+.Order2 {
+    height: 300px;
+  }
+
+  .Order2Abs h4{
+    font-size: 30px;
+    line-height: 30px;
+    color:#FFFFFF;
+    font-weight: 900;
+}
+
+.Order2Abs h5{
+    font-size: 20px;
+    line-height: 32px;
+    color:#FFFFFF;
+    margin: 20px 0px;
+}
+
+
+.ListBox li{
+    font-size: 16px;
+    line-height: 30px;
+    color: #420000;
+    font-weight: 700;
+    list-style-type: disc;
+}
+
+.LandingPage .section_gaps {
+    margin-top: 60px;
+}
 
 }
 
