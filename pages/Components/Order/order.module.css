@@ -1,0 +1,242 @@
+/* OrderConfirmFrom */
+
+.d_flex{
+    display: flex;
+    align-items: center;
+}
+
+.OrderConfirmFrom {
+    padding: 50px 0px ;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,#c8faff 0%,#0cf3ff);}
+
+.OrderConfirmFrom h2 {
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+
+/* OrderConfirmRight */
+.OrderConfirmRight ul {
+    margin-top: 30px !important;
+    border-radius: 15px;
+    border: 1px solid #d1d5db;
+}
+
+.OrderConfirmRight ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: 1px solid #d1d5db;
+}
+
+.OrderConfirmRight ul li:last-child {
+    border-bottom: 0;
+}
+
+.OrderConfirmRight ul h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+.OrderConfirmRight ul h5 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #332729;
+}
+
+.OrderConfirmRight ul h5 .checkbox {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.OrderConfirmRight ul h5 .checkbox input {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.OrderConfirmRight ul h5 .checkbox:last-child {
+    margin-bottom: 0;
+}
+
+.OrderConfirmRight ul h5 label {
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.OrderConfirmRight ul .img {
+    width: 80px;
+}
+
+.OrderConfirmRight ul .img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.OrderConfirmRight ul .left {
+    width: 50%;
+}
+
+.OrderConfirmRight ul .left p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+.OrderConfirmRight ul .right {
+    width: 45%;
+    justify-content: space-between;
+}
+
+.OrderConfirmRight ul .right input {
+    width: 80px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.OrderConfirmRight button {
+    width: 95%;
+    background: #008f75;
+    padding: 8px;
+    border-radius: 50px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 600;
+    border: none;
+}
+
+.OrderConfirmRight button svg {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+
+.OrderConfirmRight ul .left p {
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-top: 0;
+}
+
+#form_part button {
+    border: none;
+}
+
+.CheckBoxPad{
+    margin-left: 5% ;
+    margin-bottom: 50px;
+}
+
+
+
+@media (max-width: 1339px) {
+
+    .OrderConfirmRight ul h5 {
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .OrderConfirmRight ul .right input {
+        width: 70px;
+        padding: 5px 10px;
+    }
+
+    .OrderConfirmLeft .Payment h3 {
+        padding: 20px;
+        padding-bottom: 0;
+    }
+
+    .OrderConfirmRight ul h4 {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .OrderConfirmLeft .Payment .CustomeInput label {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+}
+
+
+
+    /* ------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------
+        Media
+    ------------------------------------------------------------------------------------------------------
+    ------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 900px) {
+
+    .OrderConfirmRight {
+        margin-top: 50px;
+    }
+
+    .OrderConfirmLeft {
+        width: 100%;
+    }
+
+    .OrderConfirmLeft .Payment {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .OrderConfirmFrom {
+
+        padding: 50px 0px !important;
+
+    }
+
+    .OrderConfirmRight ul .left {
+        display: block;
+    }
+
+    .OrderConfirmRight ul .img img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .OrderConfirmRight ul .left p {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .OrderConfirmRight ul .right {
+        display: block;
+        text-align: right;
+    }
+
+    .OrderConfirmRight ul .right input {
+        width: 80%;
+    }
+
+    .OrderConfirmRight ul h5 {
+        margin-top: 10px;
+    }
+
+    .OrderConfirmRight ul li {
+        padding: 15px 20px;
+    }
+
+}
+
+
+
+

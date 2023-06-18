@@ -1,0 +1,107 @@
+
+/* ------------------------------------------------------------------------------------------- 
+        Menubar
+------------------------------------------------------------------------------------------- */
+
+.MenubarContent {
+    position: relative;
+}
+
+
+.MenubarContent .Logo{
+    text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+}
+
+.MenubarContent .LogoLeft{
+    text-align: left;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    
+}
+
+.MenubarContent .Logo img{
+    height: 80px;
+    width: auto;
+}
+
+.MenubarContent .LogoLeft img{
+    height: 80px;
+    width: auto;
+}
+
+/* Media */
+@media (max-width: 1740px) {
+
+    .MenubarContent .Logo{
+        top: 60px;
+    }
+    
+    .MenubarContent .LogoLeft{
+        top: 60px;
+    }
+  
+}
+
+@media (max-width: 1440px) {
+
+    .MenubarContent .Logo{
+        top: 40px;
+    }
+    
+    .MenubarContent .LogoLeft{
+        top: 40px;
+    }
+
+}
+@media (max-width: 1280px) {
+
+    .MenubarContent .Logo img{
+        height: 60px;
+    }
+  
+    .MenubarContent .LogoLeft img{
+        height: 60px;
+    }
+
+    .MenubarContent .Logo{
+        top: 40px;
+    }
+    
+    .MenubarContent .LogoLeft{
+        top: 40px;
+    }
+
+  
+}
+
+
+@media (max-width: 575px) {
+
+    .MenubarContent .Logo{
+        top: 30px;
+    }
+    
+    .MenubarContent .LogoLeft{
+        top: 30px;
+    }
+
+    .MenubarContent .Logo img{
+        height: 50px;
+        width: 130px;
+    }
+  
+    .MenubarContent .LogoLeft img{
+        height: 50px;
+        width: 130px;
+    }
+  
+
+
+}
+

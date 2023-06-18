@@ -1,0 +1,21 @@
+
+
+.CustomerReviewContent{
+    padding: 50px 0px;
+}
+
+.CustomerReviewContent h2{
+    margin-bottom: 30px;
+    text-align: center;
+} 
+
+.CustomerReviewImg{
+    margin-top: 30px;
+}
+
+.CustomerReviewImg img{
+    width: 100%;
+    max-height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}

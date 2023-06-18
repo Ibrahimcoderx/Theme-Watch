@@ -1,0 +1,32 @@
+
+/* ------------------------------------------------------------------------------------------- 
+ShippingAddress
+------------------------------------------------------------------------------------------- */
+
+
+.ShippingAddress{
+    padding: 50px 0px;
+    background-image: linear-gradient(to right,#b1f9ff 0%,#b1fbff);
+}
+
+.ShippingAddressItem{
+    text-align: center;
+}
+
+.ShippingAddressItem p{
+    color: #464444;
+    margin-top: 10px;
+}
+
+.ShippingAddressItem svg{
+    font-size: 80px;
+    color: #01cad7;
+}
+
+@media (max-width: 1023px) {
+
+    .ShippingAddressItem {
+        margin-bottom: 20px;
+    }
+  
+}

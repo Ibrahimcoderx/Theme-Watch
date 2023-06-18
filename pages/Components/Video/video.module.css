@@ -1,0 +1,28 @@
+
+
+.VideoPlayers div{
+    width: 100% !important;
+    height: 500px !important;
+}
+
+.VideoPlayers iframe{
+    border-radius: 10px;
+}
+
+/*  */
+
+@media (max-width: 991px) {
+
+    .VideoPlayers div {
+        height: 300px !important;
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    .VideoPlayers div {
+        height: 250px !important;
+    }
+
+}

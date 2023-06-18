@@ -1,0 +1,100 @@
+/* ===========================================================================================
+       Footer
+============================================================================================*/
+
+.FooterSec{
+    background-image: linear-gradient(to right,#b1f9ff 0%,#b1fbff);
+    padding: 50px 0px;
+
+}
+
+
+.FooterDivItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.FooterDivItem h3{
+    text-align: center;
+}
+
+.FooterDivItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.FooterSocialMediaLinkDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterSocialMedia{
+    padding-top: 30px;
+}
+
+.Footertext img{
+    max-height: 42px;
+    object-fit: cover;
+}
+
+
+.FooterDivItem p{
+    font-size: 20px;
+    line-height: 27px;
+    color:#000000;
+}
+
+/* Social Midea */
+
+.FooterSocialMedia h5{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.FooterSocialMedia{
+    text-align: center;
+}
+
+.FooterSocialMedia div{
+    margin-top: 10px;
+}
+
+.FooterSocialMedia a{
+    font-size: 20px;
+    color: #535151;
+    margin: 0px 15px;
+    transition: 0.2s;
+}
+
+.FooterSocialMediaLinkDiv a:hover{
+    color: #b92930;
+}
+
+
+@media (max-width: 991px) {
+
+    .FooterDivItem{
+        display: block;
+        text-align: center;
+    }
+    
+    .FooterDivItem div{
+        margin-bottom: 20px;
+    }
+    
+    .FooterSocialMedia h5{
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .FooterSocialMedia a{
+        margin: 0px 8px;
+        transition: 0.2s;
+    }
+
+}

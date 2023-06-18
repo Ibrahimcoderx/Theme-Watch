@@ -1,0 +1,435 @@
+/* CSS Start */
+
+/* font-family: 'Poppins', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container ul,
+.container ol {
+    list-style-type: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.container a:hover {
+    text-decoration: none;
+}
+
+.container a,
+.container button,
+.container span,
+.container p,
+.container ul,
+.container li,
+.container h1,
+.container h2,
+.container h3,
+.container h4,
+.container h5,
+.container h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+.LandingPage {
+    --header_color: #420000;
+    --primary_color: linear-gradient(to left, #5493FF,#F165AA);
+    --bg_color:#254356;
+    --text_color: #666666;
+    --white_color: #ffffff;
+    --black_color:#000000;
+
+}
+
+  .LandingPage {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    /* background-image: linear-gradient(to right,#cafbff 0%,#d5fdff); */
+  }
+  
+  .LandingPage h1{
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 70px;
+      color: var(--header_color);
+  }
+  
+  .LandingPage h2{
+      font-size: 40px;
+      line-height: 50px;
+      color: var(--primary_text);
+      font-weight: 700;
+  }
+  
+
+  .LandingPage p{
+    color: var(--text_color);
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+  
+/* ========================btn ==================== */
+
+
+.LandingPage a {
+    transition: 0.5s;
+    display: block;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 600;
+}
+
+.LandingPage a.bg {
+    margin-right: 30px;
+    padding: 15px 50px;
+    color: var(--white_color);
+    background-image: linear-gradient(to right, #E81E28 0%, #b82930 51%, #E81E28 100%);
+    background-size: 200% auto;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.LandingPage a svg {
+    font-size: 25px;
+    margin-top: -5px;
+    margin-right: 10px;
+}
+
+.LandingPage a.bg:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.LandingPage .section_gaps {
+    margin-top: 100px;
+}
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+.BannerRow{
+    display: flex;
+    align-items: center;
+}
+
+.Bannerbg{
+    background-image: url('../public/images/bg.png');
+    background-size: cover;
+    padding: 190px 0px 100px 0px;
+    background-repeat: no-repeat;
+}
+
+.BannerContantBox p{
+    margin-bottom: 20px;
+}
+
+.BannerContantBox h3{
+    font-size: 40px;
+    line-height: 55px;
+    color: var(--text_color);
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.BannerContantBox h3 span{
+    font-size: 40px;
+    line-height: 55px;
+    color: var(--header_color);
+    font-weight: 700;
+}
+
+
+.BannerContantBox h4{
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+.BannerContantBox h5{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.BannerContantBox h6{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ContactBox{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+
+/* col 2 */
+
+.BannerImgBox img{
+    height: 500px;
+    object-fit: contain;
+    width: 100%;
+   text-align: right;
+}
+
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+
+
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+
+
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+
+
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+
+
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+
+
+
+/* ==============================================================================================
+            Banner
+=================================================================================================*/
+
+
+/* Media */
+@media (max-width: 1740px) {
+
+    .Bannerbg{
+        padding: 160px 0px 100px 0px;
+    }
+    
+
+}
+
+@media (max-width: 1440px) {
+
+    .Bannerbg{
+        padding: 140px 0px 100px 0px;
+    }
+    
+    .LandingPage h1{
+        font-size: 40px;
+        line-height: 55px;
+    }
+
+    .LandingPage h2{
+        font-size: 28px;
+        line-height: 40px;
+    }
+    
+    .LandingPage p{
+      font-size: 20px;
+      line-height: 32px;
+  }
+  
+  .BannerContantBox h3{
+    font-size: 34px;
+    line-height: 44px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.BannerContantBox h3 span{
+    font-size: 34px;
+    line-height: 44px;
+}
+
+
+}
+
+@media (max-width: 1280px) {
+
+    .Bannerbg{
+        padding: 120px 0px 100px 0px;
+    }
+
+    .LandingPage h1{
+        font-size: 34px;
+        line-height: 46px;
+    }
+
+    .LandingPage h2{
+        font-size: 24px;
+        line-height: 34px;
+    }
+    
+    .LandingPage p{
+      font-size: 18px;
+      line-height: 28px;
+  }
+  
+  .BannerContantBox h3{
+    font-size: 30px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.BannerContantBox h3 span{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+  
+
+
+}
+
+@media (max-width: 991px) {
+
+    .BannerRow{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .BannerContantBox{
+        margin-top: 60px;
+        text-align: center;
+    }
+
+    .ContactBox{
+        margin-top: 60px;
+        display: block;
+    }
+    
+    .ContactBox .bg{
+     margin-bottom: 30px;
+
+    }
+    
+    .LandingPage h1{
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .LandingPage h2{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    
+    .LandingPage p{
+      font-size: 16px;
+      line-height: 26px;
+  }
+ 
+
+  .BannerContantBox h3{
+    font-size: 28px;
+    line-height: 38px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.BannerContantBox h3 span{
+    font-size: 28px;
+    line-height: 38px;
+}
+
+
+}
+
+
+
+@media (max-width: 575px) {
+
+    .BannerImgBox img {
+        border-radius: 40px;
+        height: 400px;
+        object-fit: contain;
+        width: 100%;
+        text-align: right;
+    }
+
+    .Bannerbg{
+        padding: 100px 0px 100px 0px;
+    }
+    
+    .BannerContantBox{
+        margin-top: 50px;
+    }
+
+    .LandingPage h1{
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .LandingPage h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .BannerContantBox h3{
+        font-size: 24px;
+        line-height: 34px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .BannerContantBox h3 span{
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .BannerContantBox h4{
+        font-size: 20px;
+        text-decoration: line-through;
+    }
+
+
+}
+
